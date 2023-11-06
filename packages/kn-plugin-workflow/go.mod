@@ -72,6 +72,7 @@ require (
 	github.com/prometheus/client_model v0.4.0 // indirect
 	github.com/prometheus/common v0.44.0 // indirect
 	github.com/prometheus/procfs v0.11.1 // indirect
+	github.com/relvacode/iso8601 v1.3.0 // indirect
 	github.com/santhosh-tekuri/jsonschema/v5 v5.3.1 // indirect
 	github.com/senseyeio/duration v0.0.0-20180430131211-7c2a214ada46 // indirect
 	github.com/serverlessworkflow/sdk-go/v2 v2.2.4 // indirect
@@ -113,4 +114,7 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
+replace (
+	github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
+	github.com/serverlessworkflow/sdk-go/v2 v2.2.4 => github.com/serverlessworkflow/sdk-go/v2 v2.2.5
+)
